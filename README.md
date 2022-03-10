@@ -14,7 +14,8 @@ To calculate the birds eye frame we have:
 ![5e](https://user-images.githubusercontent.com/6237268/157687506-ff520a0f-bad6-453f-b52b-c53de6935016.PNG)
 
 ![33432se](https://user-images.githubusercontent.com/6237268/157710243-34d2d005-8980-4e6e-978b-67e2b1280274.png)
-When we have &nbsp;&nbsp;&nbsp; 𝑟𝑥 = 𝑑𝑥/𝑃𝑥  &nbsp;&nbsp;&nbsp; and &nbsp;&nbsp;&nbsp; 𝑟𝑦 = 𝑑𝑦/𝑃𝑦
+
+The number of chessboards cells in the vertical axis is 𝑑𝑦 and the number of cells on the horizontal axis is 𝑑𝑥 when we have &nbsp;&nbsp;&nbsp; 𝑟𝑥 = 𝑑𝑥/𝑃𝑥  &nbsp;&nbsp;&nbsp; and &nbsp;&nbsp;&nbsp; 𝑟𝑦 = 𝑑𝑦/𝑃𝑦
 </br> Distance and angle between robot and landmark can be calculated by </br>
 𝑅 = √(𝑑 + 𝑟𝑦 × ℎ)2 + (𝑟𝑥 × 𝑤)2  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ∠𝐴 = tan−1((𝑟𝑥 × 𝑤)/(𝐷 + 𝑟𝑦 × ℎ))
 
