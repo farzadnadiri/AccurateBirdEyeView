@@ -8,7 +8,7 @@ This method helps to reduce the error of measuring the robot's distance with fie
 ![11e](https://user-images.githubusercontent.com/6237268/157687099-311c6785-90cc-476d-84c9-32cbeb2ee9c8.PNG)
 
 To calculate the birds eye frame we have:
-</br> (𝑢, 𝑣, 1)𝑇=KTR(𝑥, 𝑦, 𝑧, 1)𝑇    R is 𝑹𝒙 × 𝑹𝒚 × 𝑹𝒛  which form the 3 rotation matrices
+</br> (𝑢, 𝑣, 1)𝑇=KTR(𝑥, 𝑦, 𝑧, 1)𝑇    R is 𝑹𝒙 × 𝑹𝒚 × 𝑹𝒛  which forms the 3 rotation matrices
 
 ![1e](https://user-images.githubusercontent.com/6237268/157687484-85934d21-28a0-4caf-b2d2-7a0d875d2f4f.PNG)
 ![5e](https://user-images.githubusercontent.com/6237268/157687506-ff520a0f-bad6-453f-b52b-c53de6935016.PNG)
