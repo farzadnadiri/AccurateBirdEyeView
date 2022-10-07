@@ -1,6 +1,8 @@
 # AccurateBirdEyeView
-This project was implemented to improve localization accuracy in the soccer robot field by concatenation of Inertial Measurement Unit data and camera input. A simple implementation of the Madgwick algorithm on the Arduino Uno board beside to MPU9250 sensor module, used for the Inertial Measurement Unit. Testing of this method is based on the MonteCarlo particle filter localization algorithm.
-This method helps to reduce the error of measuring the robot's distance with field lines and landmarks. As the robot walks, the IMU calculates its deviation in Roll, Pitch, and Yaw axes from the zero position at any moment. While calculating the bird's eye frame, the inverse effect is applied to the rotational matrices as equal to the errors calculated by IMU in all axes. The localization algorithm becomes more accurate by reducing measurement errors, and the positioning is improved as a result.</br>
+This project was implemented to improve localization accuracy in the soccer robot field by concatenation of Inertial Measurement Unit data and camera input. A simple implementation of the Madgwick algorithm on the Arduino Uno board beside to MPU9250 sensor module, used for the Inertial Measurement Unit.
+this method successfully tested using MonteCarlo particle filter localization algorithm.
+Using this method, the robot's distance from field lines and landmarks can be measured more accurately. As the robot walks, the IMU calculates its deviation in the Roll, Pitch, and Yaw axes from the zero position at any moment. While calculating the bird's eye frame, the inverse effect is applied to the rotational matrices as equal to the errors computed by IMU in all axes. The localization algorithm becomes more accurate by reducing measurement errors, and positioning is improved as a result.
+</br>
 </br>
 ![2e](https://user-images.githubusercontent.com/6237268/157687335-33a461bd-7ca9-4091-a374-81613b90ca6f.PNG)
 ![3e](https://user-images.githubusercontent.com/6237268/157687172-1cc59c27-fbf9-4aee-87a3-caca8f6c7037.PNG)
@@ -21,4 +23,4 @@ The number of chessboards cells in the vertical axis is 𝑑𝑦 and the number 
 ![7e](https://user-images.githubusercontent.com/6237268/157687748-6125ba57-44d8-44b6-8066-ed72d4203f03.PNG)
 ![result](https://user-images.githubusercontent.com/6237268/157692804-dea4797a-d3da-4adf-9de9-537be91ac61a.png)
 
-
+Special thanks to Dr. Rainer Hessmer because of his [awesome project](http://www.hessmer.org/robotics/monte-carlo-location-for-robots.html/) that has been used in a part of this repository.
