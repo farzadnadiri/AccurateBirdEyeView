@@ -1,7 +1,6 @@
 # AccurateBirdEyeView
-This project was implemented to improve localization accuracy in the soccer robot field by concatenation of Inertial Measurement Unit data and camera input. A simple implementation of the Madgwick algorithm on the Arduino Uno board beside to MPU9250 sensor module, used for the Inertial Measurement Unit.
-this method successfully tested using MonteCarlo particle filter localization algorithm. </br>
-Using this method, the robot's distance from field lines and landmarks can be measured more accurately. As the robot walks, the IMU calculates its deviation in the Roll, Pitch, and Yaw axes from the zero position at any moment. While calculating the bird's eye frame, the inverse effect is applied to the rotational matrices as equal to the errors computed by IMU in all axes. The localization algorithm becomes more accurate by reducing measurement errors, and positioning is improved as a result.
+This project was implemented to improve localization accuracy in the soccer robot field by concatenating Inertial Measurement Unit (IMU) data and camera input. A simple implementation of the Madgwick algorithm on the Arduino Uno board, along with the MPU9250 sensor module used for the IMU, was successfully tested using the Monte Carlo particle filter localization algorithm.
+With this method, the robot's distance from field lines and landmarks can be measured more accurately. As the robot moves, the IMU calculates its deviation in the Roll, Pitch, and Yaw axes from the zero position at any moment. While calculating the bird's eye frame, the inverse effect is applied to the rotational matrices to account for errors computed by the IMU in all axes. This approach reduces measurement errors and improves positioning accuracy as a result.
 </br>
 </br>
 ![2e](https://user-images.githubusercontent.com/6237268/157687335-33a461bd-7ca9-4091-a374-81613b90ca6f.PNG)
