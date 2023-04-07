@@ -22,4 +22,3 @@ The number of chessboards cells in the vertical axis is 𝑑𝑦 and the number 
 ![7e](https://user-images.githubusercontent.com/6237268/157687748-6125ba57-44d8-44b6-8066-ed72d4203f03.PNG)
 ![result](https://user-images.githubusercontent.com/6237268/157692804-dea4797a-d3da-4adf-9de9-537be91ac61a.png)
 
-Special thanks to Dr. Rainer Hessmer because of his [awesome project](http://www.hessmer.org/robotics/monte-carlo-location-for-robots.html/) that has been used in a part of this repository.
